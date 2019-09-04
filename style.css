@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,500,700,800&display=swap&subset=cyrillic');
+
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*---------------------------------------------------------------INDEX---------------------*/
+/*MENU TOP OPEN*/
+body .container-fluid .navbar {
+	height: 110px;
+}
+
+body .container-fluid .navbar .navbar-brand img {
+	width: 125.5px;
+	height: 70px;
+}
+
+body .container-fluid .navbar .navbar-link {
+	font-weight: 800;
+	font-size: 14px;
+	
+}
+
+body .container-fluid .navbar .navbar-link .navbar-nav .nav-item .nav-link {
+	color: #141515;
+	margin-left: 90px;
+}
+
+body .container-fluid .navbar .navbar-link .navbar-nav .nav-item .active-link {
+	color: #B2B2B2;
+}
+
+body .container-fluid .navbar .navbar-link .navbar-nav .nav-item a:hover {
+	color: #B2B2B2;
+}
+/*MENU TOP CLOSE*/
+
+
+
+
+/*IMG HEADER OPEN*/
+body .container-fluid .big-image {
+	width: 100%;
+	height: 460px;
+	background: url('images/technology.jpg') no-repeat center/100%;
+	padding: 32px;
+}
+
+
+body .container-fluid .big-image h1  {
+	margin-bottom: 40px;
+	font-weight: 700;
+	color: #FFFFFF;
+}
+
+body .container-fluid .big-image p  {
+	width: 320px;
+	font-weight: 300;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+body .container-fluid .big-image a  {
+	font-weight: 300;
+	font-size: 16px;
+	color: #B2B2B2;
+}
+
+/*IMG HEADER CLOSE*/
+
+
+
+
+
+/*SPECIFY CONTENT OPEN*/
+body .container-fluid .main-block {
+	height: 972px;
+	padding: 16px;
+}
+
+body .container-fluid .main-block h1 {
+	font-weight: 500;
+	color: #141515;
+	margin-top: 87px;
+}
+
+body .container-fluid .main-block .specify-blocks {
+	margin-top: 50px;
+}
+
+body .container-fluid .main-block .specify-blocks .specify-item .icon img {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+body .container-fluid .main-block .specify-blocks .specify-item .specify-h {
+	font-weight: 500;
+	font-size: 20px;
+}
+
+body .container-fluid .main-block .specify-blocks .specify-item .specify-description {
+	width: 320px;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+body .container-fluid .main-block .specify-blocks .specify-item a {
+	font-weight: 300;
+	font-size: 20px;
+	color: #B2B2B2;
+}
+/*SPECIFY CONTENT CLOSE*/
+
+
+
+
+/*PORTFOLIO CONTENT OPEN*/
+body .container-fluid .portfolio-main-block {
+	height: 815px;
+	padding: 16px;
+	background: #ECECEC;
+}
+
+body .container-fluid .portfolio-main-block .portfolio-blocks {
+	margin-top: 50px;
+}
+
+body .container-fluid .portfolio-main-block h1 {
+	font-weight: 500;
+	color: #141515;
+	margin-top: 87px;
+}
+
+body .container-fluid .portfolio-main-block .portfolio-blocks .portfolio-item {
+	background: #ffffff;
+	height: 486px;
+}
+
+body .container-fluid .portfolio-main-block .portfolio-blocks .portfolio-item .image img {
+	width: 367px;
+	height: 217px;
+	margin-bottom: 40px;
+}
+
+body .container-fluid .portfolio-main-block .portfolio-blocks .portfolio-item .portfolio-h {
+	font-weight: 500;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+body .container-fluid .portfolio-main-block .portfolio-blocks .portfolio-item .portfolio-description {
+	width: 320px;
+	font-weight: 300;
+	font-size: 20px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+body .container-fluid .portfolio-main-block .portfolio-blocks .portfolio-item a {
+	font-weight: 300;
+	font-size: 20px;
+	color: #B2B2B2;
+}
+/*PORTFOLIO CONTENT CLOSE*/
+
+
+
+
+
+/*FEEDBACK OPEN*/
+body .container-fluid .feedback-main-block {
+	background: #ffffff;
+	height: 400px;
+}
+
+body .container-fluid .feedback-main-block h1 {
+	font-weight: 500;
+	color: #141515;
+	margin-top: 87px;
+}
+
+body .container-fluid .feedback-main-block form {
+	width: 367px;
+	margin: auto;
+}
+
+body .container-fluid .feedback-main-block form input {
+	width: 367px;
+	height: 60px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-color: #141515;
+	text-align: center;
+}
+
+body .container-fluid .feedback-main-block form button {
+	width: 367px;
+	height: 60px;
+}
+
+body .container-fluid .feedback-main-block form button.btn-outline-dark {
+	color: #141515;
+	border-color: #141515;
+}
+
+body .container-fluid .feedback-main-block form button.btn-outline-dark:hover {
+	background: #141515;
+	color: #ffffff;
+}
+/*FEEDBACK CLOSE*/
+
+
+
+
+/*FOOTER OPEN*/
+body .container-fluid .footer-main-block {
+	height: 200px;
+	background: #141515;
+}
+
+body .container-fluid .footer-main-block .left-content .navbar .navbar-nav li a {
+	font-weight: 300;
+	font-size: 16px; 
+	color: #ffffff;
+	margin-right: 100px;
+}
+
+body .container-fluid .footer-main-block .right-content .navbar .navbar-nav li a {
+	font-weight: 300;
+	font-size: 16px; 
+	color: #ffffff;
+	margin-left: 30px;
+}
+
+body .container-fluid .footer-main-block .right-content .navbar .navbar-nav li a:hover {
+	border-bottom: 2px solid;
+}
+
+body .container-fluid .footer-main-block .right-content .navbar .navbar-nav li a.active-link {
+	border-bottom: 2px solid;
+}
+
+/*FOOTER CLOSE*/
+/*---------------------------------------------------------------INDEX---------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------ABOUT---------------------*/
+/*IMG HEADER OPEN*/
+body .container-fluid .big-image-about {
+	width: 100%;
+	height: 460px;
+	background: url('images/about.jpg') no-repeat center/100%;
+	padding: 32px;
+}
+
+
+body .container-fluid .big-image-about h1  {
+	margin-bottom: 40px;
+	font-weight: 700;
+	color: #FFFFFF;
+}
+
+body .container-fluid .big-image-about p  {
+	width: 320px;
+	font-weight: 300;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+body .container-fluid .big-image-about a  {
+	font-weight: 300;
+	font-size: 16px;
+	color: #B2B2B2;
+}
+/*IMG HEADER CLOSE*/
+
+
+
+
+
+
+
+/*WHAT WE DO CONTENT OPEN*/
+body .container-fluid .main-block-about {
+	height: 662px;
+	padding: 16px;
+}
+
+body .container-fluid .main-block-about h1 {
+	font-weight: 500;
+	color: #141515;
+	margin-top: 87px;
+}
+
+body .container-fluid .main-block-about .discription-text p {
+	font-weight: 500;
+	font-size: 16px;
+	text-align: left;
+	line-height: 2;
+	letter-spacing: 2;
+	margin-top: 50px;
+}
+/*WHAT WE DO CONTENT CLOSE*/
+
+
+
+
+
+
+/*OUR FEATURES OPEN*/
+body .container-fluid .main-block-features {
+	height: 520px;
+	padding: 16px;
+	background: #ECECEC;
+}
+
+body .container-fluid .main-block-features h1 {
+	font-weight: 500;
+	color: #141515;
+	margin-top: 87px;
+}
+
+body .container-fluid .main-block-features .features-blocks {
+	margin-top: 50px;
+}
+
+body .container-fluid .main-block-features .features-blocks .features-item .icon img {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+body .container-fluid .main-block-features .features-blocks .features-item .features-h {
+	font-weight: 300;
+	font-size: 20px;
+}
+/*OUR FEATURES CLOSE*/
+
+
+
+
+
+
+
+/*OUR SERVICES OPEN*/
+body .container-fluid .main-block-services {
+	height: 450px;
+	padding: 16px;
+}
+
+body .container-fluid .main-block-services h1 {
+	font-weight: 500;
+	color: #141515;
+	margin-top: 87px;
+}
+
+body .container-fluid .main-block-services .services-list {
+	margin-top: 50px;
+}
+
+body .container-fluid .main-block-services .services-list .first-list a {
+	margin-bottom: 20px;
+	font-weight: 300;
+	font-size: 16px;
+	color: #141515;
+	text-decoration: none;
+}
+
+body .container-fluid .main-block-services .services-list .first-list a:hover {
+	border-bottom: 1px solid;
+}
+/*OUR SERVICES CLOSE*/
+/*---------------------------------------------------------------ABOUT---------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------PARTNERS---------------------*/
+/*IMG HEADER OPEN*/
+body .container-fluid .big-image-partners {
+	width: 100%;
+	height: 460px;
+	background: url('images/partners.jpg') no-repeat center/100%;
+	padding: 32px;
+}
+
+
+body .container-fluid .big-image-partners h1  {
+	margin-bottom: 40px;
+	font-weight: 700;
+	color: #FFFFFF;
+}
+
+body .container-fluid .big-image-partners p  {
+	width: 320px;
+	font-weight: 300;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+body .container-fluid .big-image-partners a  {
+	font-weight: 300;
+	font-size: 16px;
+	color: #B2B2B2;
+}
+/*IMG HEADER CLOSE*/
+
+
+
+
+
+/*OUR PARTNERS CONTENT OPEN*/
+body .container-fluid .main-block-partners {
+	height: 442px;
+	padding: 16px;
+}
+
+body .container-fluid .main-block-partners h1 {
+	font-weight: 500;
+	color: #141515;
+	margin-top: 87px;
+}
+
+body .container-fluid .main-block-partners .discription-text p {
+	font-weight: 500;
+	font-size: 16px;
+	text-align: left;
+	line-height: 2;
+	letter-spacing: 2;
+	margin-top: 50px;
+}
+/*OUR PARTNERS CONTENT CLOSE*/
+
+
+
+
+
+/*PARTNERS IMAGES BLOCK OPEN*/
+body .container-fluid .main-block-images {
+	height: 690px;
+	background: #ECECEC;
+}
+
+
+body .container-fluid .main-block-images .image {
+	width: 268px;
+	height: 194px;
+	margin-left: 20px;
+	margin-right: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body .container-fluid .main-block-images .image a {
+	width: 100%;
+	height: 100%;
+	margin-left: 20px;
+	margin-right: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*PARTNERS IMAGES BLOCK CLOSE*/
+/*---------------------------------------------------------------PARTNERS---------------------*/
+
+
+/*20px маленький отступ*/
+
+/*50px средний отступ*/
+
+/*90px большой отступ*/
